@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+  }
+body {
+    color: rgb(21, 95, 131);
+    text-align: center
+}
+.btn{
+    background-color: rgb(4, 58, 158);
+    color: white;
+    border-radius: 12px;
+    padding: 12px 10px
+}
+.btn2{
+    background-color: rgb(4, 58, 158);
+    color: white;
+    position: absolute;
+    border-radius: 12px;
+    padding: 12px 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/* .navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+} */
+
+* {margin: 0; padding: 0; box-sizing: border-box;}
+.spacer {width: 100%; height: 100px;}
+
+body {font-family: "Open Sans", sans-serif;}
+
+.na2 {
+	width: 100%; 
+	background-color: rgb(206, 3, 121); 
+	/* display: flex;
+	justify-content: space-between; */
+    padding: 0% 20% 0% 20%;
+}
+.na3 {
+	width: 100%; 
+	background-color: rgb(185, 0, 108); 
+	/* display: flex;
+	justify-content: space-between; */
+    justify-content: center;
+
+}
+.nar2{
+	padding: 20px 20px 20px 20px; 
+	/* display: flex;  */
+}
+
+
+
+nav {
+	width: 100%; 
+	background-color: rgb(187, 112, 42); 
+	display: flex;
+	/* justify-content: space-between; */
+}
+
+.nav-bar {
+	padding: 20px; 
+	display: flex; 
+}
+
+nav .nav-bar .nav-bar_item {
+	list-style-type: none;
+	padding: 0px 20px;
+    margin: auto;
+}
+nav .nav-bar .dropdown {
+	position: relative;
+}
+nav .nav-bar .dropdown:after {
+	content: "";
+	position: absolute;
+	right: 0;
+	top: 5px;
+	width: 7px;
+	height: 7px;
+	cursor: pointer;
+	transform: rotate(-45deg);
+	border-left: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	transition: 0.2s ease-in-out;
+}
+nav .nav-bar .dropdown:hover:after{
+	transform: rotate(135deg);
+}
+nav .nav-bar .dropdown .project {
+	position: absolute;
+	transform: translateX(-20px) translateY(5px);
+	width: 110px;
+	background-color: rgb(187, 112, 42);
+	padding: 20px;
+	border-radius: 10px;
+	height: 0px;
+	overflow: hidden;
+	visibility: hidden;
+	transition: 0.2s ease-in-out;
+}
+nav .nav-bar .dropdown:hover .project{
+	height: 220px;
+	
+	visibility: visible;
+}
+
+nav .nav-bar .dropdown .project .drop-item {
+	list-style-type: none;
+	margin-bottom: 10px;
+}
+nav .nav-bar .nav-bar_item a {
+	position: relative;
+	display: block; 
+	padding-bottom: 5px;
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+}
+nav .nav-bar .nav-bar_item a:after {
+	content: "";
+	position: absolute;
+	width: 0%;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #fff;
+	transition: 0.1s ease-in-out;
+}
+nav .nav-bar .nav-bar_item a:hover:after {
+	width: 100%;
+}
+
+#p-pht{
+width: 100%;
+height: auto;
+}
+#banner{
+    width: 100%;
+    height: auto;
+}
+    
+
+
+/* contador */
+#fecha {
+    margin: auto auto;      
+    text-align: center;
+    font-size: 250%;
+    color: #fff;
+	text-transform: uppercase;
+
+  }
+
+
+
+  .wap{
+    /* width: 60%; */
+    margin: auto;
+  }
+  .column-container {
+    margin: auto;
+    width: 100%;
+  }
+  .container {
+    width: 33.333%;
+    float: left;
+    height: 220px;
+    top: 1000px;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: auto;
+  }
+  
+.column-container div {
+    height: 300px;
+    /* width: 300px; */
+    padding-right: 350px;
+    position: relative;
+  }
+  
+  img {  
+      height: 300px;
+    width: 351px;
+    padding: 5px 5px 5px 5px;
+  }
+  .img {
+    background-color: rgb(248, 248, 248);
+    z-index: 300;
+    border-radius: 5px 5px;
+  }
+  .border {
+    z-index: 250;
+    border: solid orange 2px;
+
+    border-radius: 5px 5px;
+    top: -290px;
+    left: 15px;
+  }
+  .shadow {
+    background-color: #7676767A;
+    z-index: 200;
+    border-radius: 5px 5px;
+    top: -580px;
+    left: 30px;
+  }
+  div{
+      
+  }
+/*   
+  @media (min-width: 128px) and (max-width: 900px) {
+  
+    .wap{
+      width: 100%;
+    }
+  
+  }
+  
+  @media (min-width: 901px) and (max-width: 1100px) {
+  
+    .wap{
+      width: 90%;
+    }
+  
+  } */ */
+
+
+.link-top {
+    width: 20%;
+    border-top: solid rgb(21, 95, 131) 6px;
+    margin: 50px 40% 50px 40%;
+}
+.map{
+    margin: 50px auto 50px auto;
+}
+h5{
+    color: rgb(92, 92, 92);
+}
+h4{
+     color: rgb(0, 0, 0);
+}
+/* Footer Styles */
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: auto;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+  }
